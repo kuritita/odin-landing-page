@@ -26,12 +26,52 @@ ul {
     list-style: none;
 }
 
-a {
-    text-decoration: none;
+a, .text {
     color: #e5e7eb;
     font-size: 18px;
 }
 
 .hero {
     background-color: #1f2937;
+    display: flex;
+    padding: 100px 200px;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.title {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+
+
+.hero-text {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.hero-button {
+    background-color: #3882f6;
+    color: #E5E7EB;
+    font-weight: bold;
+    padding: 5px 28px;
+    border-radius: 5px;
+    border: none;
+    /*mirar por qué no funciona esto y el botón se alarga*/
+    flex-grow: 0;
+}
+
+.hero-image {
+    background-color: #8c939d;
+    padding: 100px;
+    color: #e5e7eb;
+}
+
+a {
+    text-decoration: none;
 }
