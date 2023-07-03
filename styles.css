@@ -34,42 +34,41 @@ a, .text {
 .hero {
     background-color: #1f2937;
     display: flex;
+    align-items: center;
     padding: 100px 200px;
-    gap: 50px;
-    justify-content: space-between;
+    gap: 40px;
 }
 
 .title {
     color: #f9faf8;
     font-size: 48px;
     font-weight: 800;
+    margin-bottom: 5px;
 }
 
-
-
 .hero-text {
-    width: 500px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 15px;
+    width: 450px;
+}
+
+.text {
+    margin-bottom: 10px;
 }
 
 .hero-button {
     background-color: #3882f6;
     color: #E5E7EB;
     font-weight: bold;
-    padding: 5px 28px;
-    border-radius: 5px;
+    padding: 8px 30px;
+    border-radius: 8px;
     border: none;
-    /*mirar por qué no funciona esto y el botón se alarga*/
-    flex-grow: 0;
+    font-size: 18px;
 }
 
 .hero-image {
     background-color: #8c939d;
-    padding: 100px;
+    padding: 100px 130px;
     color: #e5e7eb;
+    margin-left: auto;
 }
 
 a {
