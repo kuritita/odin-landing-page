@@ -132,3 +132,40 @@ a {
     font-weight: 700;
     font-size: 24px;
 }
+
+.call-to-action {
+    background-color: #3882f6;
+    margin: 150px 200px;
+    padding: 60px 140px;
+    display: flex;
+    border-radius: 8px;
+    justify-content: space-between;
+}
+
+.call-text {
+    min-width: 300px;
+}
+
+.call-header {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 700;
+}
+
+.call-info {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.call-button {
+    border: 2px solid #f9faf8;
+    background-color: #3882f6;
+    border-radius: 8px;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 40px;
+    width: 150px;
+    height: 46px;
+    flex-shrink: 0;
+}
