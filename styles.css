@@ -135,7 +135,7 @@ a {
 
 .call-to-action {
     background-color: #3882f6;
-    margin: 150px 200px;
+    margin: 120px 200px;
     padding: 60px 140px;
     display: flex;
     border-radius: 8px;
@@ -168,4 +168,13 @@ a {
     width: 150px;
     height: 46px;
     flex-shrink: 0;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
 }
